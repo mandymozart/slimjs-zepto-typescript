@@ -1,7 +1,7 @@
 {
-  "name": "slim-typescript-seed",
+  "name": "slim-typescript-zepto",
   "version": "0.0.1",
-  "description": "Frontend starter kit with TypeScript, webpack and slim.js",
+  "description": "Frontend starter kit with TypeScript, webpack, zepto and slim.js for server-side and SPA hybrid apps",
   "main": "build/app.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -9,9 +9,12 @@
     "typings": "typings"
   },
   "repository": "eavichay/slim-typescript-seed",
-  "author": "Avichay Eyal <eavichay@gmail.com>",
+  "author": "Tilman Porschuetz <tilman@wearepictures.com>",
   "license": "MIT",
   "devDependencies": {
+    "@skatejs/web-components": "^1.0.0",
+    "@types/zepto": "^1.0.28",
+    "bower": "^1.8.0",
     "html-webpack-plugin": "^2.22.0",
     "ts-loader": "^2.0.3",
     "typescript": "^2.2.2",
@@ -20,6 +23,7 @@
     "webpack-dev-server": "^1.16.1"
   },
   "dependencies": {
-    "slim-js": "^2.8.4"
+    "slim-js": "^2.8.4",
+    "zepto-webpack": "^1.2.1"
   }
 }

@@ -1,0 +1,8 @@
+<!-- This file is for the style-guide -->
+<h2 bind>I am [[name]]</h1>
+<slim-content></slim-content>
+<ol>
+    <li slim-repeat="items" slim-repeat-as="item">
+        <sws-item bind click="selectItem" id="[[item.id]]">[[item.name]]</sws-item>
+    </li>
+</ol>
